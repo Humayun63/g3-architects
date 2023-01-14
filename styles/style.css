@@ -300,10 +300,14 @@ section {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 30px;
+    place-items: center;
     margin-top: 30px;
 }
+.sponsors-logo-container div{
+    width: 50%;
+}
 .sponsors-logo-container div img{
-    width: 160px;
+    width: 100%;
 }
 
 
@@ -401,6 +405,18 @@ section {
         padding: 10px;
         margin: auto;
     }
+    /* SPONSORS SECTION */
+    .sponsors-logo-container{
+        grid-template-columns: repeat(6, 1fr);
+        grid-row-gap: 5px;
+    }
+    .sponsors-logo-container div {
+        width: 90%;
+        grid-column: span 2;
+    }
+    .sponsors-logo-container div:nth-last-child(2){
+        grid-column-end: 4;
+    }
 }
 
 /* TABLET DEVICE */
@@ -459,5 +475,9 @@ section {
     .fact-boxes{
         grid-template-columns: repeat(2, 1fr);
         
+    }
+    /* SPONSORS SECTION */
+    .sponsors-logo-container div {
+        width: 80%;
     }
 }
