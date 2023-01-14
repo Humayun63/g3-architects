@@ -157,6 +157,9 @@ section {
 }
 
 /* FACILITIES SECTION */
+.position-relative{
+    position: relative;
+}
 .facilities {
     display: flex;
     justify-content: space-between;
@@ -206,7 +209,23 @@ section {
     line-height: 26px;
     color: #727272;
 }
-
+.facilities-btn{
+    position: absolute;
+    bottom: 15%;
+    left: 43%;
+}
+.facilities-btn button {
+    font-weight: 500;
+    font-size: 18px;
+}
+.facilities-btn button:hover{
+    color: #FFFFFF;
+    background: #FF900E;
+}
+.facilities-btn button .big-text {
+    font-weight: 700;
+    font-size: 40px;
+}
 
 
 
@@ -268,18 +287,25 @@ section {
     .feature-info-title {
         font-size: 30px;
     }
+
     /* FACILITIES SECTION */
-    .facilities{
+    .facilities {
         flex-direction: column-reverse;
         align-items: center;
         gap: 10px;
     }
+
     .facilities-article,
-    .article-thumbline{
+    .article-thumbline {
         width: 95%;
     }
-    .article-title{
+
+    .article-title {
         font-size: 35px;
+    }
+    .facilities-btn{
+        position: unset;
+        text-align: center;
     }
 }
 
@@ -307,17 +333,24 @@ section {
         flex-direction: column;
         gap: 30px;
     }
+
     .features-media,
     .features-info {
         width: 80%;
     }
+
     /* FACILITIES SECTION */
-    .facilities{
+    .facilities {
         flex-direction: column-reverse;
         gap: 20px;
     }
+
     .article-thumbline,
-    .facilities-article{
+    .facilities-article {
         width: 95%;
+    }
+    .facilities-btn{
+        position: unset;
+        text-align: center;
     }
 }
