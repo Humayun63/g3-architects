@@ -1,9 +1,87 @@
 /* ------------------
-BASIC SETUP
+    BASIC SETUP
 ---------------------*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.primary-btn {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    background: #FF900E;
+    padding: 20px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #FF900E;
+    transition: all 0.3s ease;
+}
+
+.primary-btn:hover {
+    background: #FFFFFF;
+    color: #FF900E;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* ------------------
+    HEADER STYLES
+---------------------*/
+header {
+    background: #FFF4E7;
+}
+
+header>.container {
+    padding: 30px 0;
+}
+
+/* NAV STYLES */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #131313;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 20px;
+}
+
+.menu ul li a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    border: 1px solid #FFF4E7;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: all 0.1s ease;
+}
+
+.menu ul li:hover a {
+    color: #FF900E;
+    border-color: #FF900E;
 }
