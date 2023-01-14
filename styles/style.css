@@ -448,6 +448,10 @@ footer p {
     .sponsors-logo-container div:nth-last-child(2) {
         grid-column-end: 4;
     }
+    /* FOOTER SECTION */
+    footer.container p{
+        margin-bottom: 0;
+    }
 }
 
 /* TABLET DEVICE */
@@ -514,5 +518,12 @@ footer p {
     /* SPONSORS SECTION */
     .sponsors-logo-container div {
         width: 80%;
+    }
+    /* FOOTER SECTION */
+    footer.containergit{
+        width: 100%;
+    }
+    footer.container p{
+        margin-bottom: 0;
     }
 }
