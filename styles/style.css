@@ -320,7 +320,34 @@ section {
 .sponsors-logo-container div img {
     width: 100%;
 }
-
+/* SUBSCRIPTION SECTION */
+.subscription{
+    margin: 50px auto;
+    width: 70%;
+    background-color: #fcd19e;
+    border-radius: 8px;
+    padding: 40px 30px;
+}
+.subscription form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscription form input[type="email"] {
+    border: 0;
+    outline: 0;
+    width: 40%;
+    height: 20px;
+    font-size: 20px;
+    padding: 27px 10px;
+}
+.submit-btn{
+    border-radius: 0 8px 8px 0;
+    border: 0;
+}
+.submit-btn:hover{
+    border-left: 1px solid #FCD19E;
+}
 /* ------------------
     FOOTER STYLES 
 ---------------------*/
@@ -448,6 +475,22 @@ footer p {
     .sponsors-logo-container div:nth-last-child(2) {
         grid-column-end: 4;
     }
+    /* SUBSCRIPTION SECTION */
+    .subscription{
+        width: 100%;
+        border-radius: 0;
+    }
+    .subscription form{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .subscription form input[type="email"]{
+        width: 100%;
+    }
+    .subscription form .submit-btn{
+        width: 100%;
+        border-radius: 0;
+    }
     /* FOOTER SECTION */
     footer.container p{
         margin-bottom: 0;
@@ -519,8 +562,12 @@ footer p {
     .sponsors-logo-container div {
         width: 80%;
     }
+    /* SUBSCRIPTION SECTION */
+    .subscription{
+        width: 80%;
+    }
     /* FOOTER SECTION */
-    footer.containergit{
+    footer.container{
         width: 100%;
     }
     footer.container p{
