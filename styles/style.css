@@ -268,6 +268,19 @@ section {
     .feature-info-title {
         font-size: 30px;
     }
+    /* FACILITIES SECTION */
+    .facilities{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 10px;
+    }
+    .facilities-article,
+    .article-thumbline{
+        width: 95%;
+    }
+    .article-title{
+        font-size: 35px;
+    }
 }
 
 /* TABLET DEVICE */
@@ -294,9 +307,17 @@ section {
         flex-direction: column;
         gap: 30px;
     }
-
     .features-media,
     .features-info {
         width: 80%;
+    }
+    /* FACILITIES SECTION */
+    .facilities{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .article-thumbline,
+    .facilities-article{
+        width: 95%;
     }
 }
