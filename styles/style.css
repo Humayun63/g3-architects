@@ -173,7 +173,7 @@ section {
     .container {
         width: 100%;
     }
-
+    /* HEADER SECTION */
     .navbar,
     .menu ul {
         flex-direction: column;
@@ -197,6 +197,21 @@ section {
     .banner-title {
         font-size: 35px;
     }
+    /* FEATURES SECTION */
+    .features{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .features-media,
+    .features-info{
+        width: 80%;
+    }
+    .features-media{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-info-title{
+        font-size: 30px;
+    }
 }
 
 /* TABLET DEVICE */
@@ -204,7 +219,7 @@ section {
     .container {
         width: 90%;
     }
-
+    /* HEADER SECTION */
     .menu ul {
         gap: 5px;
     }
@@ -214,6 +229,15 @@ section {
     }
 
     .banner-text-box {
+        width: 80%;
+    }
+    /* FEATURES SECTION */
+    .features{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .features-media,
+    .features-info{
         width: 80%;
     }
 }
