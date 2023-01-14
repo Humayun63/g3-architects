@@ -286,6 +286,26 @@ section {
     transition: color 1s ease;
 
 }
+/* SPONSORS SECTION STYLES*/
+.sponsors{
+    text-align: center;
+}
+.sponsors >.section-title{
+    border: 0;
+}
+.sponsors > .section-description{
+    margin: auto;
+}
+.sponsors-logo-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+.sponsors-logo-container div img{
+    width: 160px;
+}
+
 
 
 
