@@ -21,7 +21,7 @@ ul {
     font-weight: 600;
     font-size: 20px;
     background: #FF900E;
-    padding: 20px 25px;
+    padding: 15px 25px;
     border-radius: 8px;
     cursor: pointer;
     border: 1px solid #FF900E;
@@ -84,4 +84,24 @@ header>.container {
 .menu ul li:hover a {
     color: #FF900E;
     border-color: #FF900E;
+}
+
+/* HEADER BANNER STYLES */
+.banner-text-box {
+    margin: 50px auto 26px;
+    text-align: center;
+    width: 70%;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 55px;
+    color: #131313;
+}
+.banner-description{
+    font-weight: 400;
+line-height: 26px;
+color: #727272;
+margin: 26px 0;
 }
